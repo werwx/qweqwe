@@ -1,0 +1,301 @@
+
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
+        DownloadFileItem item = null;
+        
+        // 双重锁定保证线程安全
+        lock (_syncLock)
+        {
+            if (!_downloadQueue.TryDequeue(out item)) break;
+        }
+
+        try
+        {
+            // 标记为下载中（数据库原子操作）
+            await _dbService.MarkAsDownloadingAsync(item.DbId);
+            
+            await DownloadFileAsync(...);
+            
