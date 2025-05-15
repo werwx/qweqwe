@@ -1,0 +1,271 @@
+    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }    await DownloadFileAsync(...);
+            
+            // 标记完成（数据库+内存计数）
+            await _dbService.MarkAsCompletedAsync(item.DbId);
+            Interlocked.Increment(ref _downloadedFiles);
+            Interlocked.Add(ref _downloadedSize, item.File.Size);
+        }
+        catch (Exception ex)
+        {
+            // 异常处理（回滚队列+记录错误）
+            lock (_syncLock)
+            {
+                _downloadQueue.Enqueue(item); // 重新入队
+            }
+            await _dbService.RecordErrorAsync(item.DbId, ex.Message);
+        }
